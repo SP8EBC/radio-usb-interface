@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "paratnc_cp")(type "Legacy")(uri "${KIPRJMOD}/paratnc_cp_eagle-libr/paratnc_cp-eagle-import.lib")(options "")(descr ""))
+)
