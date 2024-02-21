@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name "paratnc_cp")(type "Legacy")(uri "${KIPRJMOD}/paratnc_cp_eagle-libr/paratnc_cp.pretty")(options "")(descr ""))
+  (lib (name "MIC5209")(type "KiCad")(uri "${KIPRJMOD}/MIC5209-3.3YS-Microchip-Symbol-Kicad-237169")(options "")(descr ""))
 )
