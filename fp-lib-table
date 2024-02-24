@@ -1,4 +1,9 @@
 (fp_lib_table
-  (lib (name "paratnc_cp")(type "Legacy")(uri "${KIPRJMOD}/paratnc_cp_eagle-libr/paratnc_cp.pretty")(options "")(descr ""))
+  (lib (name "paratnc_cp")(type "KiCad")(uri "${KIPRJMOD}/paratnc_cp_eagle-libr/paratnc_cp.pretty")(options "")(descr ""))
   (lib (name "MIC5209")(type "KiCad")(uri "${KIPRJMOD}/MIC5209-3.3YS-Microchip-Symbol-Kicad-237169")(options "")(descr ""))
+  (lib (name "sterownik-eagle")(type "KiCad")(uri "${KIPRJMOD}/sterownik-eagle-import/sterownik.pretty")(options "")(descr ""))
+  (lib (name "switches_spdt_dpdt")(type "KiCad")(uri "${KIPRJMOD}/switches/swtiches_spdt_dpdt.pretty")(options "")(descr ""))
+  (lib (name "LED")(type "KiCad")(uri "${KIPRJMOD}/LED/LED.pretty")(options "")(descr ""))
+  (lib (name "AV")(type "KiCad")(uri "${KIPRJMOD}/w_conn_av.pretty")(options "")(descr ""))
+  (lib (name "4x1md_custom")(type "KiCad")(uri "${KIPRJMOD}/4x1md_custom_footprints")(options "")(descr ""))
 )

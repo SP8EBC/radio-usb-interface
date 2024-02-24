@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name "paratnc_cp")(type "Legacy")(uri "${KIPRJMOD}/paratnc_cp_eagle-libr/paratnc_cp-eagle-import.lib")(options "")(descr ""))
   (lib (name "MIC5209")(type "Legacy")(uri "${KIPRJMOD}/MIC5209-3.3YS-Microchip-Symbol-Kicad-237169/mic5209-3.3ys.lib")(options "")(descr ""))
+  (lib (name "sterownik-eagle")(type "KiCad")(uri "${KIPRJMOD}/sterownik-eagle-import/sterownik-eagle-import.kicad_sym")(options "")(descr ""))
 )
