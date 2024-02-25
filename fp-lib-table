@@ -6,4 +6,5 @@
   (lib (name "LED")(type "KiCad")(uri "${KIPRJMOD}/LED/LED.pretty")(options "")(descr ""))
   (lib (name "AV")(type "KiCad")(uri "${KIPRJMOD}/w_conn_av.pretty")(options "")(descr ""))
   (lib (name "4x1md_custom")(type "KiCad")(uri "${KIPRJMOD}/4x1md_custom_footprints")(options "")(descr ""))
+  (lib (name "potentiometers")(type "KiCad")(uri "${KIPRJMOD}/tht_potentiometers/potentiometers.pretty")(options "")(descr ""))
 )
