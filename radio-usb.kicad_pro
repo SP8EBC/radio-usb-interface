@@ -34,8 +34,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.25,
-          "width": 0.825
+          "height": 0.3,
+          "width": 1.55
         },
         "silk_line_width": 0.15239999999999998,
         "silk_text_italic": false,
@@ -137,6 +137,10 @@
         {
           "diameter": 0.508,
           "drill": 0.254
+        },
+        {
+          "diameter": 0.8128,
+          "drill": 0.4064
         },
         {
           "diameter": 1.524,
@@ -390,10 +394,49 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.254,
-        "diff_pair_gap": 0.2032,
+        "clearance": 0.2032,
+        "diff_pair_gap": 0.254,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.762,
+        "diff_pair_width": 0.2032,
+        "line_style": 0,
+        "microvia_diameter": 0.3048,
+        "microvia_drill": 0.1016,
+        "name": "Serial controller",
+        "nets": [
+          "+1V8",
+          "/SER_A_CTS_IN",
+          "/SER_A_DSR_IN",
+          "/SER_A_DTR_OUT",
+          "/SER_A_RTS_OUT",
+          "/SER_B_CTS_IN",
+          "/SER_B_DSR_IN",
+          "/SER_B_DTR_OUT",
+          "/SER_B_RTS_OUT",
+          "/SER_B_RXD_IN",
+          "/SER_B_RXLED",
+          "/SER_B_TXD_OUT",
+          "/SER_B_TXLED",
+          "/SER_EECS",
+          "/SER_EEDT",
+          "/SER_VCCIO",
+          "/SER_VPLL",
+          "/SER_XI",
+          "/SER_XO",
+          "/~{SER_RST}"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.254,
+        "via_diameter": 0.8128,
+        "via_drill": 0.4064,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.254,
+        "diff_pair_gap": 0.254,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 1.143,
         "line_style": 0,
         "microvia_diameter": 0.3048,
         "microvia_drill": 0.1016,
@@ -405,8 +448,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.762,
-        "via_diameter": 2.032,
-        "via_drill": 1.016,
+        "via_diameter": 1.524,
+        "via_drill": 0.762,
         "wire_width": 6.0
       },
       {
@@ -420,6 +463,7 @@
         "microvia_drill": 0.1016,
         "name": "USB hub",
         "nets": [
+          "+2V5",
           "/H_AUD_USBD+",
           "/H_AUD_USBD-",
           "/H_BIAS",
@@ -438,36 +482,42 @@
           "/H_SER_USBD-",
           "/H_VDD",
           "/H_XTALIN",
-          "/H_XTALO"
+          "/H_XTALO",
+          "Net-(C5-Pad2)",
+          "Net-(C8-Pad2)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
-        "via_diameter": 0.8128,
-        "via_drill": 0.4064,
+        "via_diameter": 0.508,
+        "via_drill": 0.254,
         "wire_width": 6.0
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.254,
-        "diff_pair_gap": 0.2032,
+        "clearance": 0.2032,
+        "diff_pair_gap": 0.254,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.762,
+        "diff_pair_width": 1.143,
         "line_style": 0,
         "microvia_diameter": 0.3048,
         "microvia_drill": 0.1016,
         "name": "USB ports",
         "nets": [
+          "/AUD_USB_DN",
+          "/AUD_USB_DP",
           "/DP1+",
           "/DP1-",
           "/DP2+",
-          "/DP2-"
+          "/DP2-",
+          "/SER_D+",
+          "/SER_D-"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
-        "via_diameter": 0.8128,
-        "via_drill": 0.4064,
+        "via_diameter": 1.524,
+        "via_drill": 0.762,
         "wire_width": 6.0
       }
     ],
