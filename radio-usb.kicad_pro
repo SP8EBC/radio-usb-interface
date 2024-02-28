@@ -482,9 +482,7 @@
           "/H_SER_USBD-",
           "/H_VDD",
           "/H_XTALIN",
-          "/H_XTALO",
-          "Net-(C5-Pad2)",
-          "Net-(C8-Pad2)"
+          "/H_XTALO"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
