@@ -34,8 +34,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.45,
-          "width": 1.75
+          "height": 0.4,
+          "width": 1.475
         },
         "silk_line_width": 0.15239999999999998,
         "silk_text_italic": false,
@@ -423,6 +423,33 @@
           "/SER_XI",
           "/SER_XO",
           "/~{SER_RST}"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.254,
+        "via_diameter": 0.8128,
+        "via_drill": 0.4064,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2032,
+        "diff_pair_gap": 0.254,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2032,
+        "line_style": 0,
+        "microvia_diameter": 0.3048,
+        "microvia_drill": 0.1016,
+        "name": "Serial max",
+        "nets": [
+          "/RS232RX",
+          "/RS232TX",
+          "Net-(C24-Pad1)",
+          "Net-(C24-Pad2)",
+          "Net-(C29-Pad1)",
+          "Net-(C29-Pad2)",
+          "Net-(C32-Pad1)",
+          "Net-(C33-Pad1)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
