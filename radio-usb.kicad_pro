@@ -34,8 +34,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.4,
-          "width": 1.475
+          "height": 0.3,
+          "width": 1.55
         },
         "silk_line_width": 0.15239999999999998,
         "silk_text_italic": false,
@@ -401,6 +401,59 @@
         "line_style": 0,
         "microvia_diameter": 0.3048,
         "microvia_drill": 0.1016,
+        "name": "Audio Codec",
+        "nets": [
+          "/AUD_IN_LEFT",
+          "/AUD_IN_RIGHT",
+          "/AUD_OUT_LEFT",
+          "/AUD_OUT_RIGHT",
+          "/AUD_VBUS",
+          "/AUD_VDDI",
+          "Net-(C43-Pad1)",
+          "Net-(C45-Pad1)",
+          "Net-(C46-Pad1)",
+          "Net-(C48-Pad1)",
+          "Net-(C49-Pad1)",
+          "Net-(C51-Pad1)",
+          "Net-(C52-Pad1)",
+          "Net-(R54-Pad2)"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.254,
+        "via_diameter": 0.8128,
+        "via_drill": 0.4064,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2032,
+        "diff_pair_gap": 0.254,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2032,
+        "line_style": 0,
+        "microvia_diameter": 0.3048,
+        "microvia_drill": 0.1016,
+        "name": "Ground",
+        "nets": [
+          "GND"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.254,
+        "via_diameter": 0.8128,
+        "via_drill": 0.4064,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2032,
+        "diff_pair_gap": 0.254,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2032,
+        "line_style": 0,
+        "microvia_diameter": 0.3048,
+        "microvia_drill": 0.1016,
         "name": "Serial controller",
         "nets": [
           "+1V8",
@@ -422,7 +475,8 @@
           "/SER_VPLL",
           "/SER_XI",
           "/SER_XO",
-          "/~{SER_RST}"
+          "/~{SER_RST}",
+          "Net-(R44-Pad2)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
