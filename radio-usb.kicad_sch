@@ -16250,7 +16250,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid deb0672d-1fa7-4c50-aa33-536d20962dc3)
     (property "Reference" "D12" (id 0) (at 167.64 15.3502 0))
-    (property "Value" "QLS6B-FKW" (id 1) (at 167.64 17.8871 0))
+    (property "Value" "1882.2781" (id 1) (at 167.64 17.8871 0))
     (property "Footprint" "LED:LED_MENTOR_1882" (id 2) (at 162.56 32.258 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
@@ -17866,7 +17866,7 @@
       (reference "D10") (unit 1) (value "RB751V40T1G") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
     (path "/deb0672d-1fa7-4c50-aa33-536d20962dc3"
-      (reference "D12") (unit 1) (value "QLS6B-FKW") (footprint "LED:LED_MENTOR_1882")
+      (reference "D12") (unit 1) (value "1882.2781") (footprint "LED:LED_MENTOR_1882")
     )
     (path "/b2315279-acc3-4d1c-ac73-aa85b2d0ceeb"
       (reference "D15") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")

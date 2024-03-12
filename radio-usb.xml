@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/mateusz/Documents/eagle/radio-usb-interface/radio-usb.kicad_sch</source>
-    <date>nie, 10 mar 2024, 18:44:02</date>
+    <date>pon, 11 mar 2024, 08:03:28</date>
     <tool>Eeschema 6.0.2+dfsg-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -403,26 +403,26 @@
       <tstamps>3f45dd33-cee1-460a-a9f9-928f460be929</tstamps>
     </comp>
     <comp ref="C30">
-      <value>30pF</value>
+      <value>18p</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="DESCRIPTION">08055A300JAT2A KYOCERA AVX</field>
+        <field name="DESCRIPTION">08055A180FAT2A KYOCERA AVX</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="DESCRIPTION" value="08055A300JAT2A KYOCERA AVX"/>
+      <property name="DESCRIPTION" value="08055A180FAT2A KYOCERA AVX"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="radio-usb.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>dd89c3e3-4833-4122-a2b3-c63e1cfecb7d</tstamps>
     </comp>
     <comp ref="C31">
-      <value>30pF</value>
+      <value>18p</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="DESCRIPTION">08055A300JAT2A KYOCERA AVX</field>
+        <field name="DESCRIPTION">08055A180FAT2A KYOCERA AVX</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="DESCRIPTION" value="08055A300JAT2A KYOCERA AVX"/>
+      <property name="DESCRIPTION" value="08055A180FAT2A KYOCERA AVX"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="radio-usb.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -663,26 +663,26 @@
       <tstamps>79fd79c2-b3e3-40aa-8d6a-7f44646d7f2a</tstamps>
     </comp>
     <comp ref="C51">
-      <value>10p</value>
+      <value>18p</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="DESCRIPTION">08055A100JAT2A KYOCERA AVX</field>
+        <field name="DESCRIPTION">08055A180FAT2A KYOCERA AVX</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="DESCRIPTION" value="08055A100JAT2A KYOCERA AVX"/>
+      <property name="DESCRIPTION" value="08055A180FAT2A KYOCERA AVX"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="radio-usb.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a99ee346-f709-4f73-ba50-1f96f29d8253</tstamps>
     </comp>
     <comp ref="C52">
-      <value>10p</value>
+      <value>18p</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="DESCRIPTION">08055A100JAT2A KYOCERA AVX</field>
+        <field name="DESCRIPTION">08055A180FAT2A KYOCERA AVX</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="DESCRIPTION" value="08055A100JAT2A KYOCERA AVX"/>
+      <property name="DESCRIPTION" value="08055A180FAT2A KYOCERA AVX"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="radio-usb.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -941,7 +941,7 @@
       <tstamps>f1cde656-cd47-4176-9f2c-355a787e7cb6</tstamps>
     </comp>
     <comp ref="D12">
-      <value>QLS6B-FKW</value>
+      <value>1882.2781</value>
       <footprint>LED:LED_MENTOR_1882</footprint>
       <datasheet>https://www.cree.com/led-components/media/documents/1397-QLS6BFKW.pdf</datasheet>
       <fields>
@@ -2890,7 +2890,11 @@
     <comp ref="Y2">
       <value>12MHz</value>
       <footprint>Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm</footprint>
+      <fields>
+        <field name="DESCRIPTION">7V-12.000MDDJ-T TXC</field>
+      </fields>
       <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <property name="DESCRIPTION" value="7V-12.000MDDJ-T TXC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="radio-usb.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2899,7 +2903,11 @@
     <comp ref="Y3">
       <value>12M</value>
       <footprint>Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm</footprint>
+      <fields>
+        <field name="DESCRIPTION">7V-12.000MDDJ-T TXC</field>
+      </fields>
       <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <property name="DESCRIPTION" value="7V-12.000MDDJ-T TXC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="radio-usb.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -4497,12 +4505,12 @@
     <net code="78" name="/SER_XI">
       <node ref="C30" pin="1" pintype="passive"/>
       <node ref="U17" pin="2" pinfunction="OSCI" pintype="input"/>
-      <node ref="Y2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Y2" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="79" name="/SER_XO">
       <node ref="C31" pin="1" pintype="passive"/>
       <node ref="U17" pin="3" pinfunction="OSCO" pintype="output"/>
-      <node ref="Y2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Y2" pin="2" pinfunction="2" pintype="passive"/>
     </net>
     <net code="80" name="/TTL_RX">
       <node ref="R33" pin="2" pintype="passive"/>

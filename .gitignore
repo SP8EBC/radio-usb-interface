@@ -1,2 +1,4 @@
 radio-usb-backups/
 *.zip
+*.xls#
+*~lock*
