@@ -16749,7 +16749,7 @@
     (property "Datasheet" "~" (id 3) (at 45.212 91.694 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DESCRIPTION" "LFXTAL032817BULK" (id 4) (at 45.212 91.694 0)
+    (property "DESCRIPTION" "24.00M-SMDXT324  YIC" (id 4) (at 45.212 91.694 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid faec55c6-6ebf-48c9-8ee4-f271ce2ed605))
