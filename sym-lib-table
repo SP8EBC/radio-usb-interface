@@ -3,4 +3,5 @@
   (lib (name "MIC5209")(type "Legacy")(uri "${KIPRJMOD}/MIC5209-3.3YS-Microchip-Symbol-Kicad-237169/mic5209-3.3ys.lib")(options "")(descr ""))
   (lib (name "sterownik-eagle")(type "KiCad")(uri "${KIPRJMOD}/sterownik-eagle-import/sterownik-eagle-import.kicad_sym")(options "")(descr ""))
   (lib (name "vdd_supervisor")(type "KiCad")(uri "${KIPRJMOD}/watchdog/vdd_supervisor.kicad_sym")(options "")(descr ""))
+  (lib (name "and_or_xor")(type "KiCad")(uri "${KIPRJMOD}/and_or_xor_gates/and_or_xor.kicad_sym")(options "")(descr ""))
 )
