@@ -471,7 +471,6 @@
           "/SER_B_TXLED",
           "/SER_EECS",
           "/SER_EEDT",
-          "/SER_VCCIO",
           "/SER_VPLL",
           "/SER_XI",
           "/SER_XO",
