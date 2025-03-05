@@ -9,6 +9,8 @@
     (date "2024-06-25")
     (rev "B")
     (company "ML Elektronika Mateusz Lubecki")
+    (comment 1 "tel: +48 660 43 44 46")
+    (comment 2 "email: mateusz.lubecki@outlook.com")
   )
 
   (lib_symbols
